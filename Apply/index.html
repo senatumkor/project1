@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+	<head>
+		<title>
+		Apply Here to Visit
+		</title>
+		<link href="../CSS Styles/styles.css"
+			type="text/css"
+			rel="stylesheet">	
+	</head>
+
+<body>
+	<div class="nav">
+		<img class="logo" src="../images/logo.jpeg">
+		<ul>
+			<li><a href="../index.html">Home</a></li>
+			<li><a href="../Attractions/index.html">Attractions</a> </li>
+			<li><a href="../About/index.html">About Turkey</a></li>
+			<li><a href="../Food/index.html">Food</a></li>
+			<li><a href="../Apply/index.html">Apply Here to Visit</a></li>
+		</ul>
+	</div>
+	<h1 class="title">Apply</h1>
+	<div id="border" class="column2">
+		<form action="../Apply/thankyou.html" method="post">
+
+			<div id="login">
+			<h3>Log In</h3>	
+			<p>Username:</p> 
+			<input type="text" name="name" maxlength="10" required="required"/>
+			<p>Password:</p>
+			<input type="password" name="name" maxlength="15" required="required"/>	
+			</div>
+			
+			<div id="ques">
+			<p>Are you an existing member?</p>
+			<input type="radio" name="member" value="yes" checked="checked"/>Yes
+			<input type="radio" name="member" value="no"/> No
+			
+			<br>
+			<p>What city will you be flying out from?<br/>
+			<select name="Location">
+			<option value="nyc" > New York City</option>
+			<option value="dc" > Washington DC</option>
+			<option value="la"> Los Angeles</option>
+			<option value="hous"> Houston</option>
+			<option value="pitt"> Pittburgh</option>
+			<option value="other"> Other</option>
+			</select>
+
+			<p>What is your reason for travel?</p>
+			<input type="checkbox" name="reason" value="leisure"/> Leisure
+			<input type="checkbox" name="reason" value="work"/> Work
+			<input type="checkbox" name="reason" value="other"/>Other
+			</p>
+
+			
+			<br>
+
+			<p>Enter any extra comments/concerns below.</p>
+			<textarea name="comments">Comments...</textarea>
+			
+			<br>
+			<input id="submit" type="submit" value="Submit"/>
+			</div>
+	
+		</form>
+	</div>	
+
+
+
+</body>
+</html>
